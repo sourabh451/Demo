@@ -3,12 +3,30 @@ package cdac.in;
 public class Cal {
 
 	public static void main(String[] args) {
-		int sum1 = 100 + 50;
-	    int sum2 = sum1 + 250;
-	    int sum3 = sum2 + sum2;
-	    System.out.println(sum1);
-	    System.out.println(sum2);
-	    System.out.println(sum3);
+	    int day = 4;
+    switch (day) {
+      case 1:
+        System.out.println("Monday");
+        break;
+      case 2:
+        System.out.println("Tuesday");
+        break;
+      case 3:
+        System.out.println("Wednesday");
+        break;
+      case 4:
+        System.out.println("Thursday");
+        break;
+      case 5:
+        System.out.println("Friday");
+        break;
+      case 6:
+        System.out.println("Saturday");
+        break;
+      case 7:
+        System.out.println("Sunday");
+        break;
+    }
 
 	}
 
