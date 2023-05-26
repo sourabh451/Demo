@@ -15,7 +15,7 @@ public class Cal {
         System.out.println("Wednesday");
         break;
       case 4:
-        System.out.println("Thursday");
+        System.out.println("You have selected Thursday");
         break;
       case 5:
         System.out.println("Friday");
